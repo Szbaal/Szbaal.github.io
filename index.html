@@ -7,19 +7,21 @@
     <title>Document</title>
 </head>
 <style>
-    #div {
-        color: red;
-        height: 50px;
-        width: 50px;
-
-        left: 50%
-        top: 50%
+    .container {
+        position: relative;
     }
+    .content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
 </style>
 <body>
     <h1>Napis</h1>
-    <div id="div">
-        <h1>temp</h1>
+    <div class="container">
+        <div class="content">
+            <h1>temp</h1>
+        </div>
     </div>
     
     
