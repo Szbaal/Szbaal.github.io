@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Chotłils</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        .container{
+            background-color: blue;
+            width: 1000px;
+            height: 1000px; 
+            margin: 0 auto;
+        }
+        .auto{
+            background-color: red;
+            width: 50px;
+            height: 100px;
+            position: relative;
+            left: 100px;
+            top: 80%;
+            animation: my-script 10s linear 1s infinite normal forwards;
+        }
+        @keyframes my-script {
+            25%{
+                transform: translateY(-600px) translateX(0px);
+            }
+
+            32%{
+                transform: translateY(-730px) translateX(100px) rotate(90deg);
+            }
+
+            50%{
+                transform: translateY(-730px) translateX(700px) rotate(90deg);
+            }
+
+            60%{
+                transform: translateY(-550px) translateX(830px) rotate(180deg);
+            }
+
+            75%{
+                transform: translateY(-50px) translateX(830px) rotate(180deg);
+            }
+
+            82%{
+                transform: translateY(0px) translateX(730px) rotate(270deg);
+            }
+
+            92%{
+                transform: translateY(0px) translateX(100px) rotate(270deg);
+            }
+
+            100%{
+                transform: translateY(-10px) translateX(10px) rotate(360deg);
+            }
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="auto">
+            </div>
+        </div>
+    </body>
+</html>
