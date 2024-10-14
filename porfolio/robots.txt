@@ -4,4 +4,4 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /tmp/
 
-Sitemap: https://yarkolot.github.io/EZN/portfolio/sitemap.xml
+Sitemap: https://szbaal.github.io/portfolio/sitemap.xml
